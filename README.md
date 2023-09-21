@@ -149,4 +149,140 @@
 - MSE: 4.373276776246024
 - RMSE: 2.0912380964983455
 
+# แบบที่ 2
+- batch_size = 16
+- width = 224
+- height = 224 
+- epochs(All) = 5,500 (รอบละ250)
+- dropout_rate = 0.2 
+- input_shape = (height, width, 3)
+- activation='linear' 
+- loss='mse',
+- optimizer=Adam 
+- metrics=['mse']
+- 10-fold-crossvalidation
+-  
+## [Train รอบที่ 1 (250 epochs, Freeze)](01_Eff_Regress_Train_250Freeze.ipynb)
+```
+learning_rate=2e-4
+```
+## [Predict รอบที่ 1](01_Eff_Regress_Predict_Freeze_250.ipynb)
+- classification accuracy: 18.03%
+- MAE: 1.973488865323436
+- MSE: 7.093319194061506
+- RMSE: 2.6633285929568484
 
+## [Train รอบที่ 2 (250 epochs, Freeze)](02_Eff_Regress_Train_250Freeze.ipynb)
+```
+learning_rate=2e-4
+```
+## [Predict รอบที่ 2](02_Eff_Regress_Predict_Freeze_250.ipynb)
+- classification accuracy: 16.44%
+- MAE: 2.369034994697773
+- MSE: 10.042417815482503
+- RMSE: 3.1689774084840843
+
+## [Train รอบที่ 3 (250 epochs, Freeze)](03_Eff_Regress_Train_250Freeze.ipynb)
+```
+learning_rate=2e-5
+```
+## [Predict รอบที่ 3](03_Eff_Regress_Predict_Freeze_250.ipynb)
+- classification accuracy: 18.45%
+- MAE: 2.1007423117709436
+- MSE: 8.083775185577943
+- RMSE: 2.8431980559887036
+
+## [Train รอบที่ 4 (250 epochs, Freeze)](04_Eff_Regress_Train_250Freeze.ipynb)
+```
+learning_rate=2e-5
+```
+## [Predict รอบที่ 4](04_Eff_Regress_Predict_Freeze_250.ipynb)
+- classification accuracy: 18.03%
+- MAE: 2.0572640509013786
+- MSE: 7.743372216330859
+- RMSE: 2.782691541714758
+
+## [Train รอบที่ 5 (250 epochs, Freeze)](05_Eff_Regress_Train_250Freeze.ipynb)
+```
+learning_rate=2e-5
+```
+## [Predict รอบที่ 5](05_Eff_Regress_Predict_Freeze_250.ipynb)
+- classification accuracy: 20.57%
+- MAE: 1.960763520678685
+- MSE: 7.277836691410393
+- RMSE: 2.697746595106811
+
+## [Train รอบที่ 6 (250 epochs, Freeze)](06_Eff_Regress_Train_250Freeze.ipynb)
+```
+learning_rate=8e-6
+```
+## [Predict รอบที่ 6](06_Eff_Regress_Predict_Freeze_250.ipynb)
+- classification accuracy: 20.15%
+- MAE: 2.063626723223754
+- MSE: 7.913043478260869
+- RMSE: 2.8130132381950976
+
+## [Train รอบที่ 7 (250 epochs, Freeze)](07_Eff_Regress_Train_250Freeze.ipynb)
+```
+learning_rate=8e-6
+```
+## [Predict รอบที่ 7](07_Eff_Regress_Predict_Freeze_250.ipynb)
+- classification accuracy: 19.09%
+- MAE: 2.053022269353128
+- MSE: 7.737009544008483
+- RMSE: 2.781548048121492
+
+## [Train รอบที่ 8 (250 epochs, Unfreeze)](08_Eff_Regress_Train_250Unfreeze.ipynb)
+```
+learning_rate=8e-6
+```
+## [Predict รอบที่ 8](08_Eff_Regress_Predict_Unfreeze_250.ipynb)
+- classification accuracy: 23.33%
+- MAE: 1.6712619300106044
+- MSE: 5.185577942735949
+- RMSE: 2.2771864093077556
+
+## [Train รอบที่ 9 (250 epochs, Unfreeze)](09_Eff_Regress_Train_250Unfreeze.ipynb)
+```
+learning_rate=8e-6
+```
+## [Predict รอบที่ 9](09_Eff_Regress_Predict_Unfreeze_250.ipynb)
+- classification accuracy: 26.51%
+- MAE: 1.4125132555673383
+- MSE: 3.8812301166489926
+- RMSE: 1.970083784169849
+
+## [Train รอบที่ 10 (250 epochs, Unfreeze)]()
+```
+learning_rate=8e-6
+```
+## [Predict รอบที่ 10]()
+- classification accuracy: %
+
+## [Train รอบที่ 11 (250 epochs, Unfreeze)]()
+```
+learning_rate=8e-6
+```
+## [Predict รอบที่ 11]()
+- classification accuracy: %
+
+## [Train รอบที่ 12 (250 epochs, Unfreeze)]()
+```
+learning_rate=8e-6
+```
+## [Predict รอบที่ 12]()
+- classification accuracy: %
+
+## [Train รอบที่ 13 (250 epochs, Unfreeze)]()
+```
+learning_rate=8e-6
+```
+## [Predict รอบที่ 13]()
+- classification accuracy: %
+
+## [Train รอบที่ 14 (250 epochs, Unfreeze)]()
+```
+learning_rate=8e-6
+```
+## [Predict รอบที่ 14]()
+- classification accuracy: %
