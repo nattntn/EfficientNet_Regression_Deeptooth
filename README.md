@@ -1,6 +1,6 @@
 # EfficientNet_Regression_Deeptooth
 
-# แบบที่ 1
+# แบบที่ 1 (ตามรุ่นพี่)
 - batch_size = 16
 - width = 150
 - height = 150 
